@@ -1,0 +1,66 @@
+body, header, section, footer, article, h1, h2, h3, h4, h5, h6, input, button, label, p, fieldset, nav, ul, li, a, span, strong, em {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+#main-wrapper {
+	width : 660px;
+	height : 310px;
+	background-color : #EEEEEE;
+	border-radius : 2px;
+	border : 1px solid #806850;
+}
+h1 {
+	display:inline;
+	color: white;
+	font-size : 21px;
+	font-weight : 500;
+
+}
+#header-div {
+	height: 70px;
+	background-color:#343434;
+	
+}
+.header-element {
+	display:inline;
+	float: left;
+	padding: 4px 8px;
+}
+.header-line {
+	padding-top: 20px;
+}
+.text-field {
+	height: 20px;
+}
+.body-div {
+	width: 660px;
+	height: 240px;
+	background-color: #3B3B3B;
+}
+.total-management {
+	float: left;
+	margin-top: 15px;
+	margin-left: -70px;
+	color: #FDD71C;
+	font-size: 20px;
+}
+.body-text1 {
+	
+	display: block;
+	width: 590px;
+	font-family: calibri;
+	padding-top: 70px;
+	padding-left: 10px;
+	color:#A5A5A5;
+}
+.body-text2 {
+	width: 590px;
+	padding-left: 10px;
+	font-family: calibri;
+	color:#A5A5A5;
+}
+span {
+	
+	color : #FFFFFF;
+}

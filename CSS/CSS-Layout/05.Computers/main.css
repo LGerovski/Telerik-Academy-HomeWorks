@@ -1,0 +1,109 @@
+body, header, section, footer, article, h1, h2, h3, h4, h5, h6, input, button, label, p, fieldset, nav, ul, li, a, span, strong, em {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+#main-wrapper {
+	width: 690px;
+	height: 520px;
+	background-color: #FFFFFF;
+	border-radius: 5px;
+}
+#header-div {
+	width: 640px;
+	height: 40px;
+	margin-left: 20px;
+	box-shadow: 0px 1px 0px #C1C1C1, 0px 2px 0px #393939, 0px 3px 0px #909090;
+	-moz-box-shadow: 0px 1px 0px #C1C1C1, 0px 2px 0px #393939, 0px 3px 0px #909090;
+}
+nav {
+	margin-left: 130px;
+	padding: 7px;
+}
+a {
+	text-decoration: none;
+	text-decoration:underline;
+	color: #00ABEF;
+}
+.main-menu {
+	list-style-type: none;
+	float: left;
+	padding:2px;
+	font-family: tahoma;
+	font-weight: 600;
+	font-size: 21px;	
+}
+.table {
+	display: table;
+	float:left;
+	width: 430px;
+	height: 430px;
+	margin-top: 12px;
+	margin-left: 10px;
+	box-shadow: 0 0 0 1px #F7F7F7, 0 0 0 2px #717171, 0 0 0 3px #444444, 0 0 0 4px #DBDBDB;
+	-moz-box-shadow: 0 0 0 1px #F7F7F7, 0 0 0 2px #717171, 0 0 0 3px #444444, 0 0 0 4px #DBDBDB;
+}
+.table-row {
+	display: table-row;	
+}
+.table-cell {
+	display: table-cell;
+}
+.offer-cells {
+	width: 200px;
+	height: 125px;
+	box-shadow: 0 0 0 1px #ADADAD, 0 0 0 2px #333333, 0 0 0 3px#A1A1A1;
+	-moz-box-shadow: 0 0 0 1px #ADADAD, 0 0 0 2px #333333, 0 0 0 3px#A1A1A1;
+	margin: 10px;
+} 
+.label-div {
+	float: left;
+	font-family: arial;
+	font-weight: 500;
+	position:relative;
+	margin-left: 25px;
+	padding: 0px 8px;
+	margin-top: -10px;
+	background-color: white;
+}
+.image-div {
+	float: left;
+}
+.offer-text {
+	position: relative;
+	float: left;
+	width: 90px;
+	height: 100px;
+	margin-top: -80px;
+	margin-left: 110px;
+}
+.offer-menu {
+	list-style-type: none;
+	font-family: Georgia;
+	padding: 13px 0px 0px 0px;
+}
+.details {
+	padding-left: 10px;
+}
+.price-div {
+	position: relative;
+	float: left;
+	font-family: Georgia;
+	margin-top: -24px;
+	margin-left: 20px;
+}
+.side-menu {
+	float: left;
+	width: 200px;
+	height: 350px;
+	margin: 10px;
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+.side-menu-items {
+	height: 20px;
+	font-family: Georgia ;
+	font-size: 18px;
+	padding: 10px 15px;
+}
+				

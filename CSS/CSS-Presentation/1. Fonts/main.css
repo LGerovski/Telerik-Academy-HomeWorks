@@ -1,0 +1,15 @@
+body {
+    font-family : consolas;
+    color : #0094ff;
+}
+header {
+	font-weight : bold;
+}
+#Title:first-letter {
+    font-family : Edwardian;
+    font-size : 1.8em;
+}
+@font-face {
+	font-family : Edwardian;
+	src : url('Edwardian Script ITC.ttf');
+}

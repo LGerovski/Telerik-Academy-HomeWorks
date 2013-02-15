@@ -1,0 +1,40 @@
+* { 
+    margin: 0; padding: 0; 
+}
+body, h1, p, ul, li { 
+    margin: 0; padding: 0; 
+}
+body {
+     font-family : Ariel, Sans-serif;  
+}
+article {
+    font-size : 0.8em;    
+}
+table {
+    border : 1px solid #D6D5C4; 
+    border-collapse : collapse;
+}
+td {
+    border : 1px solid #D6D5C4; 
+    border-top-style : none;
+    border-bottom-style : none;
+    padding-right : 50px;
+    padding-top : 8px; 
+    padding-left : 10px;
+    padding-bottom : 8px;
+}
+th {
+    border : 1px solid #D6D5C4; 
+    background-color : #5CC006;
+    color : white;
+    text-align : left;
+    font-weight : none;
+    padding : 5px;
+    padding-right : 50px;
+}
+.alt {
+    background-color : #ECECD8;   
+}
+.checkBox {
+	box-shadow: 0 0 5px 5px #9AA0A6;
+}

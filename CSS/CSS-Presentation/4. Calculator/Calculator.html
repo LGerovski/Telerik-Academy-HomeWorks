@@ -1,0 +1,194 @@
+<html>
+<head>
+	<title>DIVS</title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="main.css" />
+</head>
+<body>
+     
+    <div id="mainWrapper">
+        <header>   
+            <div id="calcImage">
+                 <img src="Images/calc.png"> Calculator
+            </div>
+            <div id="ButtonMenu">
+               <input type="image" src="Images/buttons.png" class="win-buttons"name="buttons"/>
+            </div>
+        </header> 
+		<div class="clear"> </div>		
+        <section>
+            <div id="body">
+                <div id="textMenu">
+                <nav id="mainMenu">
+                <ul>
+                    <li>View</li>
+                    <li>Edit</li>
+                    <li>Help</li>
+                </ul>
+                </nav>
+                </div> 
+                <div id="Digits-Window">
+                    <div id="Display-Number">
+                        8854455
+                    </div>
+                </div>
+                <div id="Binary-Digits">
+                    <div class="table">
+                        <div class="table-row">
+                            <div class="table-cell">0000</div>
+                            <div class="table-cell">0000</div>
+                            <div class="table-cell">0000</div>
+                            <div class="table-cell">0000</div>
+                            <div class="table-cell">0000</div>
+                            <div class="table-cell">0000</div>
+                            <div class="table-cell">0000</div>
+                            <div class="table-cell">0000</div>
+                         </div>
+                        <div class="table-row" id="even">
+                            <div class="table-cell">63</div>
+                            <div class="table-cell"></div>
+                            <div class="table-cell"></div>
+                            <div class="table-cell"></div>
+                            <div class="table-cell">47</div>
+                            <div class="table-cell"></div>
+                            <div class="table-cell"></div>
+                            <div class="table-cell right-align">32</div>
+                        </div>
+                        <div class="table-row">
+                            <div class="table-cell">0000</div>
+                            <div class="table-cell">0000</div>
+                            <div class="table-cell">1000</div>
+                            <div class="table-cell">0111</div>
+                            <div class="table-cell">0001</div>
+                            <div class="table-cell">1011</div>
+                            <div class="table-cell">1011</div>
+                            <div class="table-cell">0111</div>
+                         </div>
+                        <div class="table-row" id="even-next">
+                            <div class="table-cell">31</div>
+                            <div class="table-cell"></div>
+                            <div class="table-cell"></div>
+                            <div class="table-cell"></div>
+                            <div class="table-cell">15</div>
+                            <div class="table-cell"></div>
+                            <div class="table-cell"></div>
+                            <div class="table-cell right-align">0</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="bottons">
+                    <div id="radio-buttons">
+                        <div id="radio-buttons-up">
+                            <div class="radio-inner">
+                                <div class="numeral-radio">
+                                    <input type="radio" name="numeral" value="Hex" id="Hex"/>
+                                    <label for="Hex">Hex</label>
+                                </div>
+                                <div class="numeral-radio">
+                                    <input type="radio" name="numeral" value="Dec" id="Dec" checked="checked"/>
+                                    <label for="Dec">Dec</label>
+                                </div>
+                                <div class="numeral-radio">
+                                    <input type="radio" name="numeral" value="Oct" id="Oct"/>
+                                    <label for="Oct">Oct</label>
+                                </div>
+                                <div class="numeral-radio">
+                                    <input type="radio" name="numeral" value="Bin" id="Bin"/>
+                                    <label for="Bin">Bin</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="radio-buttons-down">
+                            <div class="radio-inner">
+                                <div class="numeral-radio">
+                                    <input type="radio" name="byte-size" value="Qword" id="Qword" checked="checked"/>
+                                    <label for="Qword">Qword</label>
+                                </div>
+                                <div class="numeral-radio">
+                                    <input type="radio" name="byte-size" value="Dword" id="Dword"/>
+                                    <label for="Dword">Dword</label>
+                                </div>
+                                <div class="numeral-radio">
+                                    <input type="radio" name="byte-size" value="Word" id="Word"/>
+                                    <label for="Word">Word</label>
+                                </div>
+                                <div class="numeral-radio">
+                                    <input type="radio" name="byte-size" value="Byte" id="Byte"/>
+                                    <label for="Byte">Byte</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="table-wrapper">
+                        <div class="buttons-table">
+                            <div class="buttons-table-row">
+                                <div class="buttons-table-cell"><input type="button" class="button disabled-buttons" value=""/></div>
+                                <div class="buttons-table-cell"><input type="button" class="button special-buttons" value="Mod"/></div>
+                                <div class="buttons-table-cell"><input type="button" class="button disabled-buttons" value="A"/></div>
+                                <div class="buttons-table-cell"><input type="button" class="button memory-buttons" value="MC"/></div>
+                                <div class="buttons-table-cell"><input type="button" class="button memory-buttons" value="MR"/></div>
+                                <div class="buttons-table-cell"><input type="button" class="button memory-buttons" value="MS"/></div>
+                                <div class="buttons-table-cell"><input type="button" class="button memory-buttons" value="M+"/></div>
+                                <div class="buttons-table-cell"><input type="button" class="button memory-buttons" value="M-"/></div>
+                            </div>
+                            <div class="buttons-table-row">
+                                <div class="buttons-table-cell"><input type="button" class="button special-buttons" value="("/></div>
+                                <div class="buttons-table-cell"><input type="button" class="button special-buttons" value=")"/></div>
+                                <div class="buttons-table-cell"><input type="button" class="button disabled-buttons" value="B"/></div>
+                                <div class="buttons-table-cell"><input type="button" class="button special-buttons" id="arrow-button" value="←"/></div>
+                                <div class="buttons-table-cell"><input type="button" class="button special-buttons" value="CE"/></div>
+                                <div class="buttons-table-cell"><input type="button" class="button special-buttons" value="C"/></div>
+                                <div class="buttons-table-cell"><input type="button" class="button special-buttons" value="±"/></div>
+                                <div class="buttons-table-cell"><input type="button" class="button disabled-buttons" value="√"/></div>
+                            </div>
+                            <div class="buttons-table-row">
+                                <div class="buttons-table-cell"><input type="button" class="button special-buttons" value="RoL"/></div>
+                                <div class="buttons-table-cell"><input type="button" class="button special-buttons" value="RoR"/></div>
+                                <div class="buttons-table-cell"><input type="button" class="button disabled-buttons" value="C"/></div>
+                                <div class="buttons-table-cell"><input type="button" class="button digit-buttons" value="7"/></div>
+                                <div class="buttons-table-cell"><input type="button" class="button digit-buttons" value="8"/></div>
+                                <div class="buttons-table-cell"><input type="button" class="button digit-buttons" value="9"/></div>
+                                <div class="buttons-table-cell"><input type="button" class="button special-buttons" value="/"/></div>
+                                <div class="buttons-table-cell"><input type="button" class="button disabled-buttons" value="%"/></div>
+                            </div>
+                            <div class="buttons-table-row">
+                                <div class="buttons-table-cell"><input type="button" class="button special-buttons" value="Or"/></div>
+                                <div class="buttons-table-cell"><input type="button" class="button special-buttons" value="Xor"/></div>
+                                <div class="buttons-table-cell"><input type="button" class="button disabled-buttons" value="D"/></div>
+                                <div class="buttons-table-cell"><input type="button" class="button digit-buttons" value="4"/></div>
+                                <div class="buttons-table-cell"><input type="button" class="button digit-buttons" value="5"/></div>
+                                <div class="buttons-table-cell"><input type="button" class="button digit-buttons" value="6"/></div>
+                                <div class="buttons-table-cell"><input type="button" class="button special-buttons" value="*"/></div>
+                                <div class="buttons-table-cell"><input type="button" class="button disabled-buttons" value="1/x"/></div>
+                            </div>
+                            <div class="buttons-table-row">
+                                <div class="buttons-table-cell"><input type="button" class="button special-buttons" value="Lsh"/></div>
+                                <div class="buttons-table-cell"><input type="button" class="button special-buttons" value="Rsh"/></div>
+                                <div class="buttons-table-cell"><input type="button" class="button disabled-buttons" value="E"/></div>
+                                <div class="buttons-table-cell"><input type="button" class="button digit-buttons" value="1"/></div>
+                                <div class="buttons-table-cell"><input type="button" class="button digit-buttons" value="2"/></div>
+                                <div class="buttons-table-cell"><input type="button" class="button digit-buttons" value="3"/></div>
+                                <div class="buttons-table-cell"><input type="button" class="button special-buttons" value="-"/></div>
+                                <div class="buttons-table-cell"><input type="button" class="button bigger-button" value="="/></div>
+                            </div>
+                            <div class="buttons-table-row">
+                                <div class="buttons-table-cell"><input type="button" class="button special-buttons" value="Not"/></div>
+                                <div class="buttons-table-cell"><input type="button" class="button special-buttons" value="And"/></div>
+                                <div class="buttons-table-cell"><input type="button" class="button disabled-buttons" value="F"/></div>
+                                <div class="buttons-table-cell"><input type="button" class="button bigger-button" value="0"/></div>
+                                <div class="buttons-table-cell"><input type="button" class="button bigger-button" value="0"/></div> 
+                                <div class="buttons-table-cell"><input type="button" class="button disabled-buttons" value="."/></div>
+                                <div class="buttons-table-cell"><input type="button" class="button special-buttons" value="+"/></div>
+                                <div class="buttons-table-cell"><input type="button" class="button bigger-button" value="="/></div>
+                            </div>
+                            
+                        </div>
+                        <div class="zero-button"><input type="button" class="button digit-buttons" value="0"/></div>
+                        <div class="equal-button"><input type="button" class="button digit-buttons" value="="/></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+	</div>
+</body>
+</html>

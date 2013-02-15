@@ -1,0 +1,62 @@
+* { 
+    margin: 0; padding: 0; 
+}
+body, h1, p, ul, li { 
+    margin: 0; padding: 0; 
+}
+body {
+     font-family : Ariel, Sans-serif;  
+}
+article {
+    font-size : 0.8em;    
+}
+td {
+    padding-top : 8px;   
+}
+#mainWraper {
+	width : 350px;
+    background-color : #595959;   
+}
+#ticketID {
+    font-size : 1.2em;
+    color : #B4B8B8;
+    padding-top : 5px;
+    padding-left : 3px;
+    padding-bottom : 5px;
+}
+.description {
+    font-style : italic;
+    color : white;
+    padding-right : 25px;
+}
+.response {
+    color : #ADB6AE;
+}
+.name {
+    color : #E6DBA8;
+}
+.answered {
+    color : #C76B1F;
+}
+#support {
+    padding-top : 0px;
+    padding-bottom : 5px; 
+    color : #E40100;
+	vertical-align : top;
+}
+#name {
+	padding-bottom : 0px;
+}
+#parker {
+	padding-bottom : 0px;
+	height : 30px;
+}
+ul  { 
+    list-style: none; 
+}
+ul li:before    { 
+    content:"•"; 
+    font-size : 3em; 
+    color : #71B47A;
+	vertical-align : middle;
+}

@@ -1,0 +1,74 @@
+body, header, section, footer, article, h1, h2, h3, h4, h5, h6, input, button, label, p, fieldset, nav, ul, li, a, span, strong, em {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+#main-wrapper {
+    
+    width : 690px;   
+    height: 365px;
+    background-color: #1E3741;
+    border-radius: 5px;
+}
+header {
+    padding-top: 10px;
+    width: 690px;
+    height: 55px;
+}
+h1 {
+    font-family: arial;
+    float : left; 
+    padding: 10px;
+    font-size: 13px;
+    color: white;
+}
+a {
+	text-decoration:none;
+	color: #89A3A7;
+	font-family: arial;
+    font-size: 13px;
+    font-weight: 600;
+}
+a:hover {
+	text-decoration:underline;
+}
+li {
+    background-color: #4B5F67;
+	padding:10px;
+    margin : 1px;
+   list-style-type: none;
+    float:left;
+}
+.side-menu {
+    float: left;
+    width: 250px;
+    height: 300px;
+}
+.table {
+    display:table;
+}
+.table-row {
+    display:table-row;
+    height: 55px;
+    font-family : arial;
+    font-weight: 500;
+    color : #9BA5A2;
+}
+.table-cell{
+    display:table-cell;
+    padding-left : 5px;
+    padding: 7px;
+    width : 265px;
+    font-size: 14px;
+    border-bottom: 1px solid #2E454E;
+}
+.first-row {
+    background-color: #00968C; 
+    color: white;
+    padding: 18px;
+}
+.body-div {
+    float: left;
+     width: 390px;
+    height: 280px;
+}
